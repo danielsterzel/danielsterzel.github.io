@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Sterzel - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0474d6ab10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!-- the nav tag is used for defining section containing navigation links -->
+            <nav>
+                <h1 class="logo"><strong><i>Daniel Sterzel </i></strong></h1>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer, Data analyst and ML passionate</p>
+                <h1>Hi My name is<br><span>Daniel Sterzel</span></h1>
+                <h4>..........................
+                    .........................
+                    .................................................................
+                    .....................................
+                </h4>
+                </div>
+            </div>
+
+    </div>
+<!-- -----------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/aboutme.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>A goal-oriented individual, focused on career, developing IT skills and creating applications.
+                        Member of the AstroDevs students research group.
+                    </p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab"id="skills">
+                            
+                            <ul>
+                                <li><span>Programing</span><br> Languages like: C,C++,Python,Java,Bash scripting</li>
+                                <li><span>SQL</span><br>PostgreSQL, wrtiting functions in SQL</li>
+                                <li><span>Version-Control</span><br>Familiar with Git-Hub,GitLab</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>null</span><br>???</li>
+                                <li><span>null</span><br>???</li>
+                                <li><span>null</span><br>???</li>
+                                <li><span>null</span><br>???</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023-Now</span><br>AGH University of Science and Technology</li>
+                                <li><span>2019-2023</span><br>XLI lo</li>
+                                <li><span>Who cares?</span><br>Who cares?</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Bla Bla Bla Bla Bla Bla Lorem ispum dolor sit amer ...</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Bla Bla Bla Bla Bla Bla Lorem ispum dolor sit amer ...</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                    <h2> Exe gi monuemntum aere perenius</h2>
+                    <p> Heart</p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- ------------------------Portfolio---------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/app1.jpg" style="width: 300px ;height: 300px;" alt="app1">
+                <div class="layer">
+                    <h3>Stars</h3>
+                    <p>Click here to learn more about the Sun and many other stars in the galaxy!</p>
+                    <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                
+                <img src="/images/app2.jpg"style="width: 300px ;height: 300px;" alt="app2">
+                <div class="layer">
+                <h3>Moons</h3>
+                <p>Learn more about astral objects known as moons. How they from, are they remnants of planets? Can we live on a moon?</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               
+                <img src="/images//app3.jpg"style="width: 300px ;height: 300px;" alt="app3">
+                <div class="layer">
+                <h3>Planets</h3>
+                <p>How they form? What are they made of? What are Ice Giants? Planets without a star</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+<!-- ----------contact -->
+<div id="contact">
+    <div class="containter">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> daniel.j.sterzel@gmail.com</p>
+
+                <p><i class="fa-solid fa-phone"></i> +48 507 680 444</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100015435408068"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href=" https://discordapp.com/users/642380183206232067"> <i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="Curriculum vitae Daniel Sterzel.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <!-- <form>
+                <input type="text" name="Name" placeholder="Your Name " required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form> -->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Daniel</p>
+    </div>
+</div>
+
+
+<script>
+// javascript btw
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
+
+
+
+
