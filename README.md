@@ -12,4 +12,5 @@ The project is **still** underway however it is working quite well so far. Here 
 So far that's all I have in store for the website. New things will be added, some things will be changed, this is not the final version yet.
 ### Usage
 Very simple just click, in the menu, where do you want to go in the website and it will take you there.
-
+### Build
+The project consists mostly of HTML and CSS with 1 or 2 Javascript scripts required for some functionalities like the **About Me** section.
