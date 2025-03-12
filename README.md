@@ -1,4 +1,6 @@
 # danielsterzel.github.io
+
+# Link to website [https://danielsterzel.github.io/]
 ### Daniel Sterzel personal website
 The project is **still** underway however it is working quite well so far. Here are some features in the webiste:
  - Menu taking you to specific sections of the website.
